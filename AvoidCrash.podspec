@@ -22,7 +22,8 @@ s.requires_arc = [
                   'AvoidCrash/NSMutableString+AvoidCrash.m',
                   'AvoidCrash/NSAttributedString+AvoidCrash.m',
                   'AvoidCrash/NSMutableAttributedString+AvoidCrash.m']
-
+                  
+ s.resource_bundles = {'AvoidCrash' => ['AvoidCrash/PrivacyInfo.xcprivacy']}
 
 end
 
